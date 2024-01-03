@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+    <link rel="stylesheet" href="css/gird.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Zing Mp3</title>
+</head>
+<body>
+    <div id="app">
+         <diz class="background"></diz>
+         <div class="grid">
+                <div class="zing">
+                    <!-- ------------- sideBar -------------- -->
+                    <div class="zing-sidebar zing-sidebar-mb c-0">
+                        <div class="zing-logo c-0">
+                            <div class="zing-logo-pc ">
+                                  <img  src="https://sona7ns.github.io/zingmp3.vn/assets/img/sidebar-icon/logo/logo-dark.svg" alt="">
+                             </div>
+                            <div class="zing-logo-mb l-0" >
+                                <img src="https://zjs.zmdcdn.me/zmp3-desktop/releases/v1.7.35/static/media/icon_zing_mp3_60.f6b51045.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="zing-navbar-menu c-0">
+                            <div class="zing-navbar-item color-main action-song" data-index="0">
+                                 <a title="Cá Nhân">
+                                    <ion-icon name="play-outline"></ion-icon>
+                                   <h1 class="title ">Cá Nhân </h1>                                     
+                                  </a>
+                            </div>
+
+                            <div class="zing-navbar-item color-main"data-index="1">
+                              <a title="Khám Phá">
+                                <ion-icon name="disc-outline"></ion-icon>
+                            <h1 class="title ">  Khám Phá</h1>
+                               </a>
+                            </div>
+
+                            <div class="zing-navbar-item color-main zingchart" data-index="2">
+                                <a title="#zingchart">
+                                    <ion-icon name="stats-chart-outline"></ion-icon>
+                                <h1 class="title "> #zingchart</h1>
+                                 </a>
+                                 <div class="zingchart-play">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                              </div>
+
+                            <div class="zing-navbar-item color-main radio" data-index="3">
+                                <a title="Radio">
+                                    <ion-icon name="radio-outline"></ion-icon>
+                                <h1 class="title ">Radio</h1>
+                                        <span class="m-0">LIVE</span>
+                                 </a>
+                                 <div class="radio-play">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+
+                            <div class="zing-navbar-item color-main" data-index="4">
+                                <a title="Theo Dõi">
+                                    <i class="far fa-list-alt"></i>
+                                <h1 class="title "> Theo Dõi</h1>
+                                 </a>
+                            </div>
+                            <div class="sidebar-divide"></div>
+                       </div>
+                       <!-- ======================= -->
+                       <div class="zing-navar ">
+                           <div class="zing-navbar-menu ">
+                                <div class="zing-navbar-item color-main">
+                                    <a title="Nhạc Mới">
+                                        <ion-icon name="musical-notes-outline"></ion-icon>
+                                    <h1 class="title "> Nhạc Mới</h1>
+                                    </a>
+                                </div>
+
+                                <div class="zing-navbar-item color-main">
+                                <a title="Thể Loại">
+                                    <i class="fab fa-buromobelexperte"></i>
+                                <h1 class="title "> Thể Loại</h1>
+                                </a>
+                                </div>
+
+                                <div class="zing-navbar-item color-main">
+                                    <a title="Top 100">
+                                        <ion-icon name="star-outline"></ion-icon>
+                                    <h1 class="title "> Top 100</h1>
+                                    </a>
+                                </div>
+
+                                <div class="zing-navbar-item color-main">
+                                    <a title="MV">
+                                        <i class="fas fa-photo-video"></i>
+                                    <h1 class="title ">  MV</h1>
+                                    </a>
+                                </div>
+
+                                <div class="zing-vip m-0">
+                                     <span class="zing-vip-title color-main">Nghe nhạc không quảng cáo cùng kho nhạc VIP</span>
+                                     <button class="btn btn-lever">NÂNG CẤP VIP</button>
+                                </div>
+
+                                <ul class="zing-library-list">
+                                    <li class="zing-library-item color-main m-0">
+                                        <h1 class="zing-library-title color-main ">Thư viện</h1>
+                                    </li>
+                                    <li class="zing-library-item color-main">
+                                             <img src="https://zjs.zmdcdn.me/zmp3-desktop/releases/v1.0.13/static/media/my-song.cf0cb0b4.svg" alt="">
+                                            <span class="title">Bài Hát</span>
+                                    </li>
+                                    
+                                    <li class="zing-library-item color-main">
+                                        <img src="https://zjs.zmdcdn.me/zmp3-desktop/releases/v1.0.13/static/media/my-playlist.7e92a5f0.svg" alt="">
+                                        <span class="title" >Playlist</span>
+                                    </li>
+
+                                    <li class="zing-library-item color-main">
+                                        <img src="https://zjs.zmdcdn.me/zmp3-desktop/releases/v1.0.13/static/media/my-history.374cb625.svg" alt="">
+                                        <span class="title">Gần Đây</span>
+                                    </li>
+                                </ul>
+                             
+                            </div>
+                       </div>
+                       <!-- =============================== -->
+                       <div class="zing-create-list m-0 color-main">
+                            <ion-icon class="m-0" name="add-outline"></ion-icon> 
+                            <span class="m-0">Tạo playlist mới</span>
+                       </div>
+                       <div class="expanded l-0">
+                            <div class="expanded-left  l-0 color-main">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </div>
+                            <div class="expanded-right l-0 color-main ">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                       </div>
+                    </div>
+                  <!-- ------------- main -------------- -->
+                    <div class="zing-main">
+                        <div class="zing-header">
+                            <div class="zing-left ">
+                                <div class="icon color-main c-0 m-0 "><ion-icon name="arrow-back-outline"></ion-icon></div>
+                                <div class="icon color-main c-0 m-0 "><ion-icon name="arrow-forward-outline"></ion-icon></i></div>
+                                <div class="zing-search">
+                                    <div class="search-icon color-main">
+                                        <ion-icon name="search-outline"></ion-icon>
+                                    </div>
+                                    <input class="color-main" type="text" placeholder="Tìm kiếm bài hát, nghệ sĩ, lời bài hát..."/>     
+                                <!-- -----------history-search-------------- -->
+                                    <div class="info-search hide ">
+                                        <div class="info-search-main">
+                                            <div class="suggest ">
+                                                <div class="suggest-header">
+                                                    <h1 class="color-title">Gợi Ý Cho Bạn</h1>
+                                                </div>
+                                                <div class="suggest-body">
+                                                        <li class="item">
+                                                        <span class="color-small"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                                                        <span class="title color-main">Tây Sơn Hào Kiệt</span>
+                                                        </li>
+                                                        <li class="item">
+                                                        <span class="color-small"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                                                        <span class="title color-main">Ngôi Sao Cô Đơn</span>
+                                                        </li>
+                                                        <li class="item">
+                                                        <span class="color-small"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                                                        <span class="title color-main">Lặng Yên</span>
+                                                        </li>
+                                                        <li class="item">
+                                                        <span class="color-small"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                                                        <span class="title color-main">Đom Đóm</span>
+                                                        </li>
+                                                </div>
+                                                
+                                            </div>
+
+                                            <div class="show">
+                                                <div class="keywords">
+                                                    <div class="suggest-header">
+                                                        <h1 class="color-title">Từ Khóa Liên Quan</h1>
+                                                    </div>
+                                                    <div class="suggest-body">
+                                                        <li class="item">
+                                                            <span class="color-small"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                                                            <span class="title color-main">Tây Sơn Hào Kiệt</span>
+                                                        </li>
+                                                        <li class="item">
+                                                            <span class="color-small"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                                                            <span class="title color-main">Ngôi Sao Cô Đơn</span>
+                                                        </li>
+                                                        <li class="item">
+                                                            <span class="color-small"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                                                            <span class="title color-main">Lặng Yên</span>
+                                                        </li>
+                                                        <li class="item ">
+                                                            <span class="color-small"><i class="fa-solid fa-arrow-trend-up"></i></span>
+                                                            <span class="title color-main">Đom Đóm</span>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </div>                               
+                                </div>
+                            </div>
+                            <div class="zing-right">
+                                <div class="zing-right-item zing-header-upload color-main c-0">
+                                    <label for="upload"><ion-icon name="cloud-upload-outline"></ion-icon></label>
+                                      <input type="file" hidden id="upload">
+                                </div>
+                                <div class="zing-right-item zing-header-settings color-main c-0">
+                                    <ion-icon name="settings"></ion-icon>
+                                    <ul class="setting-list hide" style="background-color: rgb(255, 255, 254);">
+                                        <li class="setting-item color-main">
+                                            <i class="fas fa-ban"></i>
+                                            Danh sách chặn
+                                        </li>
+                                        <li class="setting-item color-main">
+                                            <i class="far fa-play-circle"></i>
+                                            Chất lượng nhạc
+                                        </li>
+                                        <li class="setting-item color-main">
+                                            <i class="fas fa-external-link-square-alt"></i>
+                                            Trình phát nhạc
+                                        </li>
+                                        <span class="setting-line"></span>
+                                        <li class="setting-item color-main">
+                                            <i class="fas fa-info-circle"></i>
+                                            Giới thiệu
+                                        </li>
+                                        <li class="setting-item color-main">
+                                            <i class="far fa-flag"></i>
+                                            Góp ý
+                                        </li>
+                                        <li class="setting-item color-main">
+                                            <i class="fas fa-phone-alt"></i>
+                                            Liên hệ
+                                        </li>
+                                        <li class="setting-item color-main">
+                                            <i class="fab fa-adversal"></i>
+                                            Quảng cáo
+                                        </li>
+                                        <li class="setting-item color-main">
+                                            <i class="fas fa-notes-medical"></i>
+                                            Thoả thuận sử dụng
+                                        </li>
+                                        <li class="setting-item color-main">
+                                            <i class="fas fa-shield-alt"></i>
+                                            Chính sách bảo mật
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="zing-right-item">
+                                    <img class="avatar" src="https://i.pinimg.com/564x/da/be/04/dabe04c7614e5fb3ac9ed28f5a05151d.jpg" alt="">
+                                </div>
+                            </div>
+                            
+                        </div>           
+                        <div class="zing-body">
+                            <!-- ------------- cá nhân ---------- -->
+                            <div class="individual">
+                                <div class="zing-body-avatar">
+                                    <a href="#">
+                                        <img class="avatar" src="https://i.pinimg.com/564x/da/be/04/dabe04c7614e5fb3ac9ed28f5a05151d.jpg" alt="">
+                                    </a>
+                                    <h1 class="color-title">Đạt Nguyễn</h1>
+                                </div>
+                                <div class="zing-body-selector">
+                                    <div class="list">
+                                        <div class="item color-main zing-body-selector-bgr">
+                                            <span>tổng quan</span>
+                                        </div>
+                                        <div class="item color-main">
+                                            <span>bài hát</span>
+                                        </div>
+                                        <div class="item color-main">
+                                            <span>playlist</span>
+                                        </div>
+                                        <div class="item color-main">
+                                            <span>nghệ sĩ</span>
+                                        </div>
+                                        <div class="item color-main c-0">
+                                            <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="individual-content individual-ctn1">
+                                    <div class="individual-ctn1-header">
+                                        <div class="individual-ctn1-header-left ">
+                                                <h1 class="color-title ">Bài Hát</h1>                                               
+                                        </div>
+                                        <div class="individual-ctn1-header-right c-0">
+                                            <button class="btn color-main individual-btn">
+                                                <div class="icon">
+                                                    <ion-icon name="cloud-upload-outline"></ion-icon>
+                                                </div>
+                                                <span>TẢI LÊN</span>
+                                            </button>
+                                            <button class="btn  individual-btn individual-btn-all">
+                                                <div class="icon">
+                                                    <ion-icon name="play"></ion-icon>
+                                                </div>
+                                                <span>PHÁT TẤT CẢ</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="individual-content individual-ctn2">
+                                        <div class="l-4 m-0 c-0">
+                                            <div class="individual-ctn2-left"> </div>
+                                        </div>
+                                            
+                                        <div class="l-8 m-12 c-12">
+                                            <div class="individual-ctn2-right">
+                                                <ul class="individual-ctn2-song-list"> </ul>
+                                            </div>
+                                        </div> 
+                                </div>
+
+                                <div class="individual-content individual-ctn3">
+                                    <div class="individual-ctn3-header ">
+                                        <h1 class="color-title">Playlist</h1>
+                                    </div>
+                                    <div class="individual-ctn3-body">
+                                        <li class="l-2-4 m-0 c-0">
+                                            <div class="individual-ctn3-item-add">
+                                                <div class="individual-ctn3-consists color-main m-0">
+                                                    <div class="newList-icon">
+                                                        <i class="fa-solid fa-plus"></i>
+                                                    </div>
+                                                        <h1>Tạo Playlist mới</h1>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="l-2-4 m-6 c-6">
+                                            <div class="individual-ctn3-item">
+                                                <div class="individual-ctn3-consis">
+                                                    <div class="individual-ctn3-hover">
+                                                        <div class="individual-ctn3-item-img">
+                                                            <img src="./img/discover/ctn6/f1.webp" alt="">
+                                                            
+                                                            <div class="individual-ctn3-modal">
+                                                                <div class="individual-ctn3-favorite action-favorite">
+                                                                    <i class="fa-solid fa-heart"></i>
+                                                                </div>
+                                                                <div class="individual-ctn3-play">
+                                                                    <i class="fa-solid fa-play"></i>
+                                                                </div>
+                                                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <h1 class="individual-ctn3-item-title color-main">
+                                                        Nhạc Trẻ Remix
+                                                    </h1>
+                                                    <small class="individual-ctn3-item-name color-small">
+                                                        Zing MP3
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="l-2-4 m-6 c-6">
+                                            <div class="individual-ctn3-item">
+                                                <div class="individual-ctn3-consis">
+                                                    <div class="individual-ctn3-hover">
+                                                        <div class="individual-ctn3-item-img">
+                                                            <img src="./img/discover/ctn6/f3.webp" alt="">
+                                                            
+                                                            <div class="individual-ctn3-modal">
+                                                                <div class="individual-ctn3-favorite action-favorite">
+                                                                    <i class="fa-solid fa-heart"></i>
+                                                                </div>
+                                                                <div class="individual-ctn3-play">
+                                                                    <i class="fa-solid fa-play"></i>
+                                                                </div>
+                                                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <h1 class="individual-ctn3-item-title color-main">
+                                                        Tổng Hợp Những Ca Khúc Hay Nhất
+                                                    </h1>
+                                                    <small class="individual-ctn3-item-name color-small">
+                                                        Zing MP3
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="l-2-4 m-6 c-6">
+                                            <div class="individual-ctn3-item">
+                                                <div class="individual-ctn3-consis">
+                                                    <div class="individual-ctn3-hover">
+                                                        <div class="individual-ctn3-item-img">
+                                                            <img src="./img/discover/ctn6/0.webp" alt="">
+                                                            
+                                                            <div class="individual-ctn3-modal">
+                                                                <div class="individual-ctn3-favorite action-favorite">
+                                                                    <i class="fa-solid fa-heart"></i>
+                                                                </div>
+                                                                <div class="individual-ctn3-play">
+                                                                    <i class="fa-solid fa-play"></i>
+                                                                </div>
+                                                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <h1 class="individual-ctn3-item-title color-main">
+                                                        Lạc Trôi
+                                                    </h1>
+                                                    <small class="individual-ctn3-item-name color-small">
+                                                        Zing MP3
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="l-2-4 m-6 c-6">
+                                            <div class="individual-ctn3-item">
+                                                <div class="individual-ctn3-consis">
+                                                    <div class="individual-ctn3-hover">
+                                                        <div class="individual-ctn3-item-img">
+                                                            <img src="./img/playlist/1601543857865_640.jpg" alt="">
+                                                            
+                                                            <div class="individual-ctn3-modal">
+                                                                <div class="individual-ctn3-favorite action-favorite">
+                                                                    <i class="fa-solid fa-heart"></i>
+                                                                </div>
+                                                                <div class="individual-ctn3-play">
+                                                                    <i class="fa-solid fa-play"></i>
+                                                                </div>
+                                                                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                    <h1 class="individual-ctn3-item-title color-main">
+                                                        Hoa Hải Đường
+                                                    </h1>
+                                                    <small class="individual-ctn3-item-name color-small">
+                                                        Zing MP3
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="individual-content individual-ctn4">
+                                    <div class="individual-ctn3-header">
+                                        <h1 class="color-title">Mv</h1>
+                                    </div>
+                                    <div class="l-12 m-12 c-12">
+                                        <div class="individual-ctn4-Body">
+                                            <div class="l-4 m-6 c-12">
+                                                <div class="individual-ctn4-item">
+
+                                                    <div class="individual-ctn4-hover">
+                                                        <div class="individual-ctn4-img">
+                                                            <img src="https://i.ytimg.com/vi/-vtBgNxMyZI/maxresdefault.jpg" alt="">
+                                                            <div class="individual-ctn2-song-item-icon modal-icon-play">
+                                                                <ion-icon name="play"></ion-icon>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="individual-ctn4-infoSong">
+                                                        <div class="individual-ctn4-infoSong-img">
+                                                            <img src="https://i.ytimg.com/vi/-vtBgNxMyZI/maxresdefault.jpg" alt="">
+                                                        </div>
+                                                        <div class="individual-ctn4-infoSong-des">
+                                                            <h1 class="color-main">Chạy Ngay Đi</h1>
+                                                            <span class="color-small">Sơn Tùng Mtp</span>
+                                                        </div>
+                                                    </div>
+                                                </div>   
+                                            </div>
+
+                                            <div class="l-4 m-6 c-12">
+                                                <div class="individual-ctn4-item">
+                                                    <div class="individual-ctn4-hover">
+                                                        <div class="individual-ctn4-img">
+                                                            <img src="https://photo-zmp3.zmdcdn.me/banner/4/3/b/1/43b15ea8ad5b4f7d92f9142e32b3978a.jpg" alt="">
+                                                            <div class="individual-ctn2-song-item-icon modal-icon-play">
+                                                                <ion-icon name="play"></ion-icon>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="individual-ctn4-infoSong">
+                                                        <div class="individual-ctn4-infoSong-img">
+                                                            <img src="https://photo-zmp3.zmdcdn.me/banner/4/3/b/1/43b15ea8ad5b4f7d92f9142e32b3978a.jpg" alt="">
+                                                        </div>
+                                                        <div class="individual-ctn4-infoSong-des">
+                                                            <h1 class="color-main">Sa Mưa Giông</h1>
+                                                            <span class="color-small">Hoài Lâm</span>
+                                                        </div>
+                                                    </div>
+                                                </div>   
+                                            </div>
+
+                                            <div class="l-4 m-6 c-12">
+                                                <div class="individual-ctn4-item">
+                                                    <div class="individual-ctn4-hover">
+                                                        <div class="individual-ctn4-img">
+                                                            <img src="https://photo-zmp3.zmdcdn.me/banner/8/7/f/6/87f675f710d21eb3c90729258da7c3cc.jpg" alt="">
+                                                            <div class="individual-ctn2-song-item-icon modal-icon-play">
+                                                                <ion-icon name="play"></ion-icon>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="individual-ctn4-infoSong">
+                                                        <div class="individual-ctn4-infoSong-img">
+                                                            <img src="https://photo-zmp3.zmdcdn.me/banner/8/7/f/6/87f675f710d21eb3c90729258da7c3cc.jpg" alt="">
+                                                        </div>
+                                                        <div class="individual-ctn4-infoSong-des">
+                                                            <h1 class="color-main">Ngôi Sao Cô Đơn</h1>
+                                                            <span class="color-small">Jack</span>
+                                                        </div>
+                                                    </div>
+                                                </div>   
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="individual-content individual-ctn5">
+                                    <div class="individual-ctn3-header">
+                                        <h1 class="color-title">Nghệ sĩ</h1>
+                                    </div>
+                                    <div class="individual-ctn5-body"></div>
+                                </div>
+                            </div>  
+                            
+                            <!-- ------------- Khám phá -------------->
+
+                            <div class="discover hide">
+                                <div class="discover-ctn1-mb l-0 m-0">
+                                        <div class="discover-ctn1-mb-img">
+                                        </div>
+                                </div>
+                                <div class="discover-ctn1 c-0">
+                                    <div class="discover-ctn1-list-img"> </div>
+                                    <div class="icon icon-left m-0 discover-ctn1-left action-hover color-main">
+                                        <ion-icon name="chevron-back-outline"></ion-icon>
+                                    </div>
+                                    <div class="icon icon-right m-0 discover-ctn1-right action-hover color-main">
+                                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                                    </div>
+                                </div>
+                                <div class="discover-ctn2">
+                                
+                                        <div class="discover-ctn2-header">
+                                            <h1 class="color-title">Mới Phát Hành</h1>
+                                            <div class="discover-ctn2-selection">
+                                                <div class="discover-ctn2-btn">
+                                                    <div class="btn btn-discover2-songs color-main action-btn">BÀI HÁT </div>
+                                                    <div class="btn btn-discover2-album color-main">ALBUM</div>
+                                                </div>
+                                                <div class="discover-ctn2-all color-small">
+                                                    <span>TẤT CẢ</span>
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            
+                                        <div class="l-12 m-12 c-12">
+                                            <div class="discover-ctn2-body "></div>
+                                            <div class="discover-ctn2-album hide"></div>
+                                        </div>
+                                </div>
+                                <div class="discover-ctn3">
+                                    <div class="discover-ctn3-header color-title">
+                                        Thứ Sáu Đây rồi
+                                    </div>
+                                    <div class="l-12 m-12 c-12">
+                                        <div class="discover-ctn3-body"> </div>
+                                    </div>
+                                </div>
+                                <div class="discover-ctn4">
+                                    <div class="discover-ctn3-header discover-ctn4-header color-title">
+                                        Nhạc Mới Mỗi Ngày
+                                    </div>
+                                    <div class="l-12">
+                                        <div class="discover-ctn4-body"></div>
+                                    </div>
+                                </div>
+                                <div class="discover-ctn5 c-0">
+                                    <div class="discover-ctn5-header"></div>
+
+                                    <div class="l-12 m-12">
+                                        <div class="discover-ctn5-body">
+                                            <div class="discover-ctn5-main">
+                                                <div class="discover-ctn5-list-singer"></div>
+                                            </div>
+
+                                            <div class="icon icon-left action-icon-change color-main m-0 c-0">
+                                                <ion-icon name="chevron-back-outline"></ion-icon>
+                                            </div>
+                                            <div class="icon icon-right color-main m-0 c-0">
+                                                <ion-icon name="chevron-forward-outline"></ion-icon>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="discover-ctn6">
+
+                                    <div class="discover-ctn6-header color-title">
+                                        Radio Nổi bật
+                                    </div>
+                                    <div class="l-12 c-12">
+                                        <div class="discover-ctn6-body"></div>
+                                    </div>
+                                </div>
+                            </div>                   
+                                <!-- ------------ zingchart ----------- -->
+                            <div class="zingchartCtn hide">
+                                    <div class="zingchart-header">
+                                        <h1 class="name-zingchart color-title">#Zingchart</h1>
+                                        <span class="zingchartCtn-play">
+                                            <ion-icon name="play"></ion-icon>
+                                        </span>
+                                    </div>
+                                    
+                                    <div class="zingchart-body">
+                                        <div class="zingchart-body-list zingchart-body-list-height zingchart-height"></div>
+
+                                        <div class="btn btn-top-100 color-title">
+                                                Xem Top 100
+                                        </div>
+                                    </div>
+
+                                    <div class="l-12 c-12 ">
+                                        <div class="zingchart-footer">
+                                            <h1 class="zingchart-footer-topic color-title">
+                                            Bảng Xếp Hạng Tuần
+                                            </h1>
+                                        <div class="zingchart-footer-body">
+                                                
+                                                <div class="l-4 m-6 c-12">
+                                                    <div class="zingchart-footer-ctn zingchart-footer-ctn1">
+                                                        <div class="zingchart-footer-header">
+                                                                <h1 class="color-title">Việt Nam</h1>
+                                                            <span class="color-main zingchartCtn-play">
+                                                                <ion-icon name="play"></ion-icon>
+                                                            </span>
+                                                        </div>
+                                                        <div class="zingchart-footer-list"> </div>
+                                                        <div class="btn btn-top-100 btn-view-all color-title ">
+                                                            Xem tất cả
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="l-4 m-6 c-12 c-0">
+                                                    <div class="zingchart-footer-ctn zingchart-footer-ctn2">
+                                                        <div class="zingchart-footer-header">
+                                                                <h1 class="color-title">US-UK</h1>
+                                                            <span class="color-main zingchartCtn-play">
+                                                                <ion-icon name="play"></ion-icon>
+                                                            </span>
+                                                        </div>
+                                                        <div class="zingchart-footer-list"> </div>
+                                                        <div class="btn btn-top-100 btn-view-all color-title
+                                                        ">
+                                                            Xem tất cả
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="l-4 m-6 c-12 c-0">
+                                                    <div class="zingchart-footer-ctn zingchart-footer-ctn3">
+                                                        <div class="zingchart-footer-header">
+                                                                <h1 class="color-title">K-Pop</h1>
+                                                            <span class="color-main zingchartCtn-play">
+                                                                <ion-icon name="play"></ion-icon>
+                                                            </span>
+                                                        </div>
+                                                        <div class="zingchart-footer-list"></div>
+                                                        <div class="btn btn-top-100 btn-view-all color-title">
+                                                            Xem tất cả
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                        
+                                        </div>
+                                        </div>
+                                    </div>
+
+                            </div>
+                                <!-- ------------ radio --------------- -->
+                            <div class="RadioCtn hide">                            
+                                    <div class="RadioCtn-ctn1 ">
+                                        <div class="l-12 c-12">
+                                            <div class="body">
+                                                <div class="RadioCtn-ctn1-body"></div>
+                                            </div>
+                                        </div>
+                                        <div class="icon icon-left RadioCtn-ctn1-left action-hover m-0 c-0">
+                                                <ion-icon name="chevron-back-outline"></ion-icon>
+                                        </div>
+                                        <div class="icon icon-right RadioCtn-ctn1-right action-hover m-0 c-0">
+                                                <ion-icon name="chevron-forward-outline"></ion-icon>
+                                        </div>
+                                    </div>
+
+                                    <div class="RadioCtn-ctn2 c-0">
+                                        <div class="l-12">
+                                            <div class="RadioCtn-ctn2-body">
+
+                                                <div class="l-1-5 m-4">
+                                                    <div class="RadioCtn-ctn2-left">
+                                                        <div class="header color-title">Kênh</div>
+                                                        <div class="body">
+                                                            <div class="img">
+                                                                <img src="./img/discover/ctn6/1.webp" alt="">
+                                                            </div>
+                                                            <div class="img">
+                                                                <img src="./img/discover/ctn6/2.webp" alt="">
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                </div>
+
+                                                <div class="l-10-5 m-8">
+                                                    <div class="RadioCtn-ctn2-right overflow-pc">
+                            
+                                                        <div class="body">
+                                                            <div class="total">
+
+                                                                <div class="time-line">
+
+                                                                    <div class="point color-main">
+                                                                    </div>
+                                                                
+                                                                </div>
+                                                                <div class="programs">
+
+                                                                    <div class="item">
+                                                                        <img src="./img/discover/ctn3/1.webp" alt="">
+                                                                        <div class="content">
+                                                                            <h1 class="title color-title">
+                                                                            Âm nhạc cùng bạn cuối tuần
+                                                                            </h1>
+                                                                            <span class="time color-small">12:00 - 16:00</span>
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="programs programs-bottom"></div>
+                                                                
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="icon icon-left action-hover color-main m-0 c-0 hide">
+                                                            <ion-icon name="chevron-back-outline"></ion-icon>
+                                                        </div>
+                                                        <div class="icon icon-right action-hover color-main m-0 c-0 ">
+                                                            <ion-icon name="chevron-forward-outline"></ion-icon>
+                                                        </div>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                            
+                                    <div class="RadioCtn-ctn3">
+                                        <div class="l-12 c-12">
+                                            <div class="Category">
+                                                    <div class="header">
+                                                        <h1 class="color-title">Thể loại podcast</h1>
+                                                        <div class="discover-ctn2-all color-small">
+                                                        <span>TẤT CẢ</span>
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                    </div>
+                                                    </div>
+
+                                                    <div class="body">
+                                                        <div class="l-3 c-6">
+                                                        <a href="/" class="Category-img">
+                                                            <div class="img">
+                                                                <img src="https://photo-resize-zmp3.zmdcdn.me/w320_r16x9_webp/banner/2/8/7/0/28700b2057fd36c92742b3015b263b7d.jpg" alt="">
+                                                            </div>
+                                                        </a>
+                                                        </div>
+
+                                                        <div class="l-3 c-6">
+                                                        <a href="/" class="Category-img">
+                                                            <div class="img">
+                                                                <img src="https://photo-resize-zmp3.zmdcdn.me/w320_r16x9_webp/banner/a/f/6/5/af6588f6d58fbfbb68f4231441801c15.jpg" alt="">
+                                                            </div>                                                            
+                                                        </a>
+                                                        </div>
+
+                                                        <div class="l-3 c-6">
+                                                        <a href="/" class="Category-img">
+                                                            <div class="img">
+                                                                <img src="https://photo-resize-zmp3.zmdcdn.me/w320_r16x9_webp/banner/8/6/7/1/8671a1447b5088d30c8dce06a3b2e24c.jpg" alt="">
+                                                            </div>                                                            
+                                                        </a>
+                                                        </div>
+
+                                                        <div class="l-3 c-6">
+                                                            <a href="/" class="Category-img">
+                                                            <div class="img">
+                                                                <img src="https://photo-resize-zmp3.zmdcdn.me/w320_r16x9_webp/banner/a/1/1/0/a110a3cf4fee745f20be4b04d9fbfa4a.jpg" alt="">
+                                                            </div>                                                             
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="RadioCtn-ctn4">
+                                        <div class="l-12 c-12">
+                                            <div class="header">
+                                                <img src="https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_webp/avatars/d/c/5/b/dc5b49e6cb115ee1d3fa0bf749a2efd1.jpg" alt="">
+                                                <div class="content">
+                                                    <span class="color-small">podcast</span>
+                                                    <h1 class="color-title">zing news</h1>
+                                                </div>
+                                            </div>
+
+                                            <div class="body">
+                                                <div class="list">
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                
+                                
+                                
+                            </div>             
+                            <div class="zing-result hide">
+                                <div class="l-12 m-12 c-12">
+                                    <div class="header">
+                                        <h1 class="color-title">
+                                            Kết Quả Tìm Kiếm
+                                        </h1>
+                                    </div>
+                                        <div class="zing-result-border">
+                                            <div class="zing-result-title">
+                                                <h1 class="color-title">Bài Hát</h1>
+                                            </div>
+                                            <div class="zing-result-list "> </div> 
+                                        </div>
+                                 </div>
+                                    
+                            </div>
+                        </div>                     
+                    </div>
+                    <div class="footer-mb l-0 m-0 m-pro-0">
+                            <div class="c-2-4">
+                                <div class="zing-navbar-item-mb color-main action-song" data-index="0">
+                                    <div class="footer-item-mb">
+                                        <ion-icon name="home-outline"></ion-icon>
+                                        <h1 class="title ">Trang Chủ</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="c-2-4">
+                                <div class="zing-navbar-item-mb color-main"data-index="1">
+                                <div class="footer-item-mb">
+                                    <ion-icon name="disc-outline"></ion-icon>
+                                    <h1 class="title ">Khám Phá</h1>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="c-2-4">
+                                <div class="zing-navbar-item-mb color-main zingchart" data-index="2">
+                                    <div class="footer-item-mb">
+                                        <ion-icon name="stats-chart-outline"></ion-icon>
+                                        <h1 class="title ">#Zingchart</h1>
+                                    </div>
+                                </div>
+                            </div>                        
+                            <div class="c-2-4">
+                                <div class="zing-navbar-item-mb color-main radio" data-index="3">
+                                    <div class="footer-item-mb">
+                                        <ion-icon name="radio-outline"></ion-icon>
+                                        <h1 class="title ">#Radio</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="c-2-4">
+                                <div class="zing-navbar-item-mb color-main radio" data-index="4">
+                                    <div class="footer-item-mb">
+                                          <ion-icon name="disc-outline"></ion-icon>
+                                        <h1 class="title ">Khám Phá</h1>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>        
+                <div class="zing-controls hide">
+                    <div class="audio">
+                          <audio src=""></audio>
+                    </div>
+                       <div class="l-4 m-3 c-9">
+                        <div class=" zing-control-left zing-control-left-action">
+                            <div class="control-left-img ">
+                                <img src="https://kynguyenlamdep.com/wp-content/uploads/2022/06/anh-gai-xinh-cuc-dep.jpg" alt="">
+                            </div>
+                            <div class="control-left-title">
+                                <h1 class="color-title"></h1>
+                                <small class="color-small"></small>
+                            </div>
+                            <div class="icon-favorite color-small "data-index=${index}>
+                                <div class="no-favorite zingchart-icon icon-tym action-hover">
+                                    <ion-icon name="heart-outline"></ion-icon>
+                                </div>
+                                <div class="yes-favorite zingchart-icon icon-tym action-hover">
+                                     <ion-icon name="heart"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="control-left-icon m-0">
+                                <div class="item icon action-hover  color-title m-0 ">
+                                    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                           
+                       </div>
+
+                       <div class="l-4 m-6 c-3">
+                           <div class="zing-control-main">
+                               <div class="controls">
+                                   <div class="repeat control-icon action-hover color-title">
+                                       <i class="fa-solid fa-repeat"></i>
+                                   </div>
+
+                                   <div class="icon-control-left control-icon action-hover  color-title c-0">
+                                       <i class="fa-solid fa-backward-step"></i>
+                                   </div>
+
+                                   <div class="play c-0">
+                                       <div class="play-music control-icon action-hover  color-title">
+                                           <ion-icon name="play-outline"></ion-icon>
+                                       </div>
+                                       <div class="pause-music control-icon action-hover  color-title ">
+                                           <ion-icon name="pause-circle-outline"></ion-icon>
+                                       </div>
+                                   </div>
+
+                                   <div class="icon-control-right control-icon action-hover color-title ">
+                                       <i class="fa-solid fa-forward-step"></i>
+                                   </div>
+
+                                   <div class="icon-shuffle control-icon action-hover color-title c-0">
+                                       <i class="fa-solid fa-shuffle"></i>
+                                   </div>
+                               </div>
+                               <div class="control-handle-time c-0">
+                                   <div class="time-begin color-title">
+                                       <span class="minute"></span>:
+                                       <span class="second"></span>
+                                   </div>
+                                   <div class="progress">
+                                       <div class="progressCurrent"></div>
+                                   </div>
+                                   <div class="time-end color-title"></div>
+                               </div>   
+                           </div>
+                       </div>
+
+                       <div class="l-4 m-3 c-0 ">
+                                <div class="zing-control-right">
+                                    <div class="media control-icon action-hover  color-title m-0 ">
+                                        <i class="fa-solid fa-photo-film"></i>
+                                    </div>
+                                    <div class="micro control-icon action-hover  color-title m-0">
+                                        <i class="fa-solid fa-microphone"></i>
+                                    </div>
+                                    <div class="volume ">
+                                        <div class="volume-play control-icon action-hover  color-title">
+                                            <i class="fa-solid fa-volume-low"></i>
+                                        </div>
+                                        <div class="volume-pause control-icon action-hover  color-title hide">
+                                            <i class="fa-solid fa-volume-xmark"></i>
+                                        </div>
+                                        <div class="volume-control color-title">
+                                              <div class="volume-control-play"></div>
+                                        </div>
+                                    </div>
+                                     <div class="list-song control-icon action-hover color-title ">
+                                        <i class="fa-solid fa-list-ul"></i>
+                                     </div>
+                                </div>
+
+                        </div>
+                </div>
+                <div class="m-0 l-0">
+                    <div class="zing-controls-mb zing-controls-mb-close">
+                        <div class="l-0 m-0 c-12 ">
+                            <div class="zing-control-left-mb zing-control-left-action">
+                                <div class="control-left-title-mb ">
+                                     <div class="icon color-main">
+                                         <ion-icon name="chevron-down-outline"></ion-icon>
+                                     </div>
+                                     <div class="content">
+                                         <h1 class="color-title">em của ngày hôm qua</h1>
+                                         <small class="color-main">Sơn tùng mtp</small>
+                                     </div>
+                                </div>
+                                 <div class="control-left-img-mb">
+                                     <img src="https://kynguyenlamdep.com/wp-content/uploads/2022/06/anh-gai-xinh-cuc-dep.jpg" alt="">
+                                 </div>
+                            </div>
+                        </div>
+    
+                           <div class="l-0 m-0 c-12 ">
+                                    <div class="zing-control-main-mb  ">
+                                        <div class="control-handle-time-mb  ">
+                                            <div class="time-begin-mb color-title">
+                                                <span class="minute-mb">33</span>:
+                                                <span class="second-mb">33</span>
+                                            </div>
+                                            <div class="progress-mb">
+                                                <div class="progressCurrent-mb"></div>
+                                            </div>
+                                            <div class="time-end-mb color-title"></div>
+                                        </div>
+                                        <div class="controls-mb">
+                                                <div class="repeat-mb control-icon action-hover color-title">
+                                                    <i class="fa-solid fa-repeat"></i>
+                                                </div>
+            
+                                                <div class="icon-control-left-mb control-icon action-hover  color-title">
+                                                    <i class="fa-solid fa-backward-step"></i>
+                                                </div>
+            
+                                                <div class="play_mb">
+                                                    <div class="play-music-mb action-hover  color-title">
+                                                        <ion-icon name="play-circle-outline"></ion-icon>
+                                                    </div>
+                                                    <div class="pause-music-mb  action-hover  color-title ">
+                                                        <ion-icon name="pause-circle-outline"></ion-icon>
+                                                    </div>
+                                                </div>
+            
+                                                <div class="icon-control-right-mb control-icon action-hover color-title ">
+                                                    <i class="fa-solid fa-forward-step"></i>
+                                                </div>
+            
+                                                <div class="icon-shuffle-mb control-icon action-hover color-title ">
+                                                    <i class="fa-solid fa-shuffle"></i>
+                                                </div>
+                                                
+
+                                        </div>
+                                   </div>
+
+                                   <div class="zing-control-right-mb ">
+                                        <div class="zing-control-right-mb-left">
+                                            <div class="icon-favorite color-main m-0">
+                                                <div class="no-favorite icon action-hover  m-0">
+                                                    <ion-icon name="heart-outline"></ion-icon>
+                                                </div>
+                                                <div class="yes-favorite icon action-hover  color-main m-0">
+                                                    <ion-icon name="heart"></ion-icon>
+                                                </div>
+                                            </div>
+                                            <div class="micro control-icon action-hover  color-main m-0 ">
+                                                <i class="fa-solid fa-microphone"></i>
+                                            </div>
+                                        </div>
+                                        <div class="playList">
+                                            <h1 class="title  color-main">danh sách phát</h1>
+                                            <div class="list-song control-icon action-hover  color-main">
+                                                <i class="fa-solid fa-list-ul"></i>
+                                            </div>
+                                        </div>
+                                </div>
+                                   
+                                </div>
+                           
+                    </div>
+                </div>
+          </div>
+        <!-- ---------------------- form --------------------------------- -->
+        <div class="modal hide">
+            
+        </div>
+        <!-- ------------  modal Vip -------------------- -->
+       <div class="modal-vip hide">
+               <div class="vip-ctn">
+                    <h1 class="vip-ctn-title">Dành Cho Tài Khoản Vip</h1>
+                    <div class="vip-ctn-des">
+                        Theo yêu cầu của đơn vị sở hữu bản quyền,
+                        bạn cần tài khoản VIP để nghe bài hát này.
+                    </div>
+                    <div class="btn vip-ctn-btn">ĐĂNG NHẬP TÀI KHOẢN VIP</div>
+
+                    <div class="vip-ctn-icon">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </div>
+               </div>
+       </div>
+   </div>
+      <script src="script/app.js"></script>
+</body>
+</html>
